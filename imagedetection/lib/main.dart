@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:imagedetection/screen/mainpage.dart';
-import 'package:imagedetection/screen/resultpage.dart';
 import 'package:imagedetection/screen/rulespage.dart';
 import 'package:imagedetection/screen/splashscreen.dart';
 
@@ -20,7 +19,6 @@ class MyApp extends StatelessWidget {
       routes: {
         '/' : (context) => SplashPage(),
         'mainpage' :(context) => Mainpage(),
-        'resultpage' :(context) => resultpage(),
         'rulespage' :(context) => rulespage(),
       },
      

@@ -46,10 +46,7 @@ class _MainpageState extends State<Mainpage> {
                 bottom: 10,
               ),
               title: "Take Picture", 
-              onPressed: (){
-                Navigator.pushNamedAndRemoveUntil(
-                  context, 'resultpage', (route) => false);
-              }
+              onPressed: (){}
             ),
 
             CustomButton(
