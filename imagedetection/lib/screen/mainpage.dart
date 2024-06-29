@@ -33,8 +33,8 @@ class _MainpageState extends State<Mainpage> {
             Container(
                margin: EdgeInsets.only(
                   top: 20,
-                  bottom: 10
-                ), 
+                  bottom: 10,
+                ),
               width: 300,
               height: 400,
               color: Colors.grey[200],
