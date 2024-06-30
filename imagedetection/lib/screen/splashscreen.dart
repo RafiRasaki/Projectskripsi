@@ -15,7 +15,7 @@ class SplashPage extends StatefulWidget {
 
     @override
   void initState() {
-    Timer(Duration(seconds: 3), (() {
+    Timer(Duration(seconds: 5), (() {
       Navigator.pushNamedAndRemoveUntil(
         context, 'mainpage', (route) => false);
     }));
@@ -42,11 +42,11 @@ class SplashPage extends StatefulWidget {
               ),
             ),
             Text(
-              'Image\nDetection Apps',
+              'Application Detection\nOrganic Vegetable',
               style: TextStyle(
                 fontSize: 32,
                 fontWeight: FontWeight.w500,
-                letterSpacing: 3,
+                letterSpacing: 2,
               ), 
                textAlign: TextAlign.center,
               ),
