@@ -55,10 +55,9 @@ class _MainpageState extends State<Mainpage> {
                 top: 15,
               ),
               title: "Galery", 
-              onPressed: (){
-
-              }
+              onPressed: (){}
               ),
+
             GestureDetector(
               onTap:() {
                 Navigator.pushNamed(context, 'rulespage');
