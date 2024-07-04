@@ -71,7 +71,7 @@ class _MainpageState extends State<Mainpage> {
                 'Bingung Cara Menggunakan Ini ? Click here',
                 style: TextStyle(
                   fontSize: 18,
-                  fontWeight: FontWeight.w200,
+                  fontWeight: FontWeight.w400,
                   decoration: TextDecoration.underline,
                 ),
                 ),
