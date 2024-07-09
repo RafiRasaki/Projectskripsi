@@ -18,10 +18,10 @@ class _MainpageState extends State<Mainpage> {
         backgroundColor: kijostabilo,
         title: 
         Text(
-          'Image Detection',
+          'Vegetables Classification',
           style: TextStyle(
             fontSize: 20,
-            fontWeight: FontWeight.w400
+            fontWeight: FontWeight.w400,
           ),
         ),
       ),
@@ -37,8 +37,20 @@ class _MainpageState extends State<Mainpage> {
                 ),
               width: 300,
               height: 400,
-              color: Colors.grey[200],
+              color: Colors.grey[300],
             ), 
+            Container(
+              margin: EdgeInsets.only(
+                top: 10,
+              ),
+              child: Text(
+                'This Object is..',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500
+                ),
+                ),
+            ),
             CustomButton(
               width: 170,
               margin: EdgeInsets.only(
@@ -64,7 +76,7 @@ class _MainpageState extends State<Mainpage> {
               },
             child :Container(
               margin: EdgeInsets.only(
-                top: 70,
+                top: 60,
               ),
               child: 
               Text(
