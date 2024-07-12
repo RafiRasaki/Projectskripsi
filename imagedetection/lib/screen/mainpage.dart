@@ -85,9 +85,10 @@ class _MainpageState extends State<Mainpage> {
                 ),
                 child: 
                 Text(
-                  'Bingung Cara Menggunakan Ini ? \nClick here',
+                  'Bingung Cara Menggunakan Ini ? Click here',
                   style: TextStyle(
-                    fontSize: 19,
+                    fontSize: 15,
+                    color: Colors.blue,
                     fontWeight: FontWeight.w400,
                     decoration: TextDecoration.underline,
                   ), textAlign: TextAlign.center,

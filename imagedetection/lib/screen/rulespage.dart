@@ -36,7 +36,7 @@ class _rulespageState extends State<rulespage> {
             Expanded(
               child: 
                 Text(
-                  '1. Arahkan Kamera ke objek yang diinginkan\n\n 2. Ambil Gambar\n\n 3. Lihat Hasil',
+                  '1. Arahkan Kamera ke objek yang diinginkan\n\n 2. Ambil Gambar Langsung atau Ambil Gambar Dari Gallery\n\n 3. Lihat Hasil Gambar',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w300, 
