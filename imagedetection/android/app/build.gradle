@@ -27,13 +27,8 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     namespace "com.example.imagedetection"
-    compileSdkVersion flutter.compileSdkVersion
+     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
-
-    aaptOptions {
-        noCompress 'tflite'
-        noCompress 'lite'
-    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -53,8 +48,8 @@ android {
         applicationId "com.example.imagedetection"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 21
+        targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -65,6 +60,11 @@ android {
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
         }
+    }
+
+     aaptOptions {
+        noCompress 'tflite'
+        noCompress 'lite'
     }
 }
 

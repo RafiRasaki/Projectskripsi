@@ -1,6 +1,8 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:imagedetection/themes/Tema.dart';
 import 'package:imagedetection/widget/custom_button.dart';
+import 'package:images_picker/images_picker.dart';
 
 class Mainpage extends StatefulWidget {
   const Mainpage({super.key});
