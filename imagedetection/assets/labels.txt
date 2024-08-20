@@ -1,6 +1,5 @@
-0 Tomat
-1 SayurSawi
-2 SayurKangkun...
+0 SayurSawi
+1 Tomat
+2 Kentang
 3 CabaiMerah
-4 CabaiRawit
-5 Terung
+4 Terung
