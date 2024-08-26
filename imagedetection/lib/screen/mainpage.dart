@@ -30,7 +30,7 @@ class _MainpageState extends State<Mainpage> {
 
   @override
   void dispose() {
-    //Method Untuk Membersihkan Memory
+    //Method Untuk Clean Memory
     _interpreter.close();
     super.dispose();
   }
@@ -47,7 +47,7 @@ class _MainpageState extends State<Mainpage> {
     _interpreter.run(input, output);
 
     // convert the output to a list of probabilities and get the maximum value and convert its index to the label from assets/labels.txt
-    List<double> probabilities = output[0].toList();
+    List<int> probabilities = output[0].toList();
     List<String> labels = await rootBundle
         .loadString('assets/labels.txt')
         .then((value) => value.split('\n'));
@@ -81,7 +81,7 @@ class _MainpageState extends State<Mainpage> {
 
   Future<void> loadModel() async {
     //Method get image from tflite
-    _interpreter = await Interpreter.fromAsset('assets/model_unquant.tflite');
+    _interpreter = await Interpreter.fromAsset('assets/model.tflite');
   }
 
   pickImage() async {
